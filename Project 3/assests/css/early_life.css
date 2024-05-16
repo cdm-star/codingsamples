@@ -1,0 +1,126 @@
+body{
+    background-color:aliceblue;
+}
+ul {
+    list-style-type: none;
+    position: relative;
+    max-width: auto;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:grey;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 20px 90px;
+    text-decoration: none;
+}
+li:active{
+   border-color:purple;
+
+}
+li img{
+    width: 50px;
+    height:60px;
+}
+h1{
+   text-align: center;
+   text-decoration: underline;
+   font-stretch: expanded;
+}
+img{
+    padding-top: 10px;
+    float:left;
+    width: 100px;;
+    height: 150px;
+}
+p{
+    float:left;
+    margin-right:300px;
+    font-size: 18px;
+} 
+.container{
+    background-color: lightskyblue;
+    font-size: 18px;
+    float:left;
+    margin-left:0px;
+    padding-top: 10px;
+}
+div p{
+    font-size: 18px;
+    float: left;
+    margin-right: 10px;
+}
+footer{
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    margin-right: 200px;
+    float:left;
+}
+@media screen and (max-width:200){ 
+    body{
+        background-color:aliceblue;
+    }
+    ul {
+        list-style-type: none;
+        position: relative;
+        max-width: auto;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+        background-color:grey;
+    }
+    li {
+        float: left;
+    }
+      
+    li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 20px 90px;
+        text-decoration: none;
+    }
+    li:active{
+       border-color:purple;
+    
+    }
+    li img{
+        width: 70px;
+        height: 80px;
+    }
+    p{
+        margin: 10px;
+        font-size: 18px;
+    }
+   
+    .container{
+        background-color: lightskyblue;
+        font-size: 18px;
+        float:left;
+        margin-left:0px;
+        padding-top: 10;
+    }
+    div p{
+        font-size: 18px;
+        float: left;
+        margin-right: 10px;
+    }
+    img{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    footer{
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
